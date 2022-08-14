@@ -69,7 +69,7 @@ public class CSVReader extends AbstractFileReader {
      */
     @Override
     public void initializeFile(String fileName) throws FileNotFoundException {
-        File infoFile = new File(fileName);
+        File infoFile = new File("LaboratoryWork6/humans.csv");
         scannerOfFile = new Scanner(infoFile);
     }
 

@@ -28,7 +28,7 @@ public final class Config {
     }
 
     public static String getFilePath() {
-        return System.getenv(getSystemEnvironment());
+        return "LaboratoryWork6/humans.csv";
     }
 
     public static TextSender getTextSender() {
